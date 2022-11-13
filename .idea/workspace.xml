@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4033d7e8-c52d-4aef-be7f-7e34ed029bd9" name="Changes" comment="playing with guy elements width and collumns">
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="4033d7e8-c52d-4aef-be7f-7e34ed029bd9" name="Changes" comment="added names to components representing their use">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/form1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/form1.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/form1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/form1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -54,6 +58,20 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="form1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="form1" />
+      <module name="fereastramea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.form1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668364310307</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finished all tabs&#10;Added all relevant elements to all tabs&#10;Added all GUI functional requirements&#10;Preparing to code ;)">
+      <created>1668369388892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668369388892</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added names to components representing their use">
+      <created>1668369902315</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668369902315</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +133,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit - proiect facultate" />
     <MESSAGE value="playing with guy elements width and collumns" />
-    <option name="LAST_COMMIT_MESSAGE" value="playing with guy elements width and collumns" />
+    <MESSAGE value="Finished all tabs&#10;Added all relevant elements to all tabs&#10;Added all GUI functional requirements&#10;Preparing to code ;)" />
+    <MESSAGE value="added names to components representing their use" />
+    <option name="LAST_COMMIT_MESSAGE" value="added names to components representing their use" />
   </component>
 </project>

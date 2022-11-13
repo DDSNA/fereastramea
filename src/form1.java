@@ -1,45 +1,62 @@
+import com.sun.media.jfxmedia.events.NewFrameEvent;
+
 import javax.swing.*;
+import javax.swing.event.*;
 
 public class form1 {
-    private JPanel panel1;
-    private JTabbedPane tabbedPane1;
-    private JPanel taborder;
-    private JPanel tabclientdetails;
-    private JTextField clientcontacttextfield;
-    private JTextField clientnametextfield;
-    private JTextField clientaddresstextfield;
-    private JTextField deliverydaystextfield;
-    private JButton saveCustomerInfoButton;
-    private JButton resetButton;
-    private JComboBox comboboxclientpreset;
-    private JLabel labelclientpreset;
-    private JSpinner spinnercucumbers;
-    private JTextPane additionalCustomOrderWillTextPane;
-    private JButton saveOrderButton;
-    private JButton resetOrderButton;
-    private JCheckBox haveCustomOrderCheckBox;
-    private JTable tableordertotalandtransport;
-    private JButton deleteOrderButton;
-    private JButton saveOrderButton1;
-    private JLabel labeldeliverydays;
-    private JLabel labelclientaddress;
-    private JLabel labelclientname;
-    private JLabel labelclientcontact;
-    private JPanel tabtotals;
-    private JSpinner spinnerdetergentbags;
-    private JSpinner spinnerapples;
-    private JSpinner spinnerbread;
-    private JSpinner spinneroil;
-    private JSpinner spinnertomatoes;
-    private JSpinner spinnerapricots;
-    private JLabel labelcucumbers;
-    private JLabel labelapples;
-    private JLabel labelbread;
-    private JLabel labeloil;
-    private JLabel labelwater;
-    private JSpinner spinnerwater;
-    private JLabel labeldetergent;
-    private JLabel labelapricots;
-    private JLabel labeltomatoes;
-    private JLabel labelcopyright2022;
-}
+    public void main(String[]a) {
+        JPanel panel1;
+        JTabbedPane tabbedPane1;
+        JPanel taborder;
+        JPanel tabclientdetails;
+        JTextField clientcontacttextfield;
+        JTextField clientnametextfield;
+        JTextField clientaddresstextfield;
+        JTextField deliverydaystextfield;
+        JButton saveCustomerInfoButton;
+        JButton resetButton;
+        JComboBox comboboxclientpreset;
+        JLabel labelclientpreset;
+        JSpinner spinnercucumbers;
+        JTextPane additionalCustomOrderWillTextPane;
+        JButton saveOrderButton;
+        JButton resetOrderButton;
+        JCheckBox haveCustomOrderCheckBox;
+        JTable tableordertotalandtransport;
+        String data[][] = {{"Transport", "1", "20$"},
+                {"Oil bottles", "2", "40$"}};
+        String collumn[] = {"ID", "Number", "Value"};
+        JFrame f;
+        f = new JFrame();
+        JTable jt = new JTable(data, collumn);
+        jt.setBounds(30, 40, 200, 300);
+        JScrollPane sp = new JScrollPane(jt);
+        f.add(sp);
+        f.setSize(300, 400);
+        f.setVisible(true);
+
+
+     JButton deleteOrderButton;
+     JButton saveOrderButton1;
+     JLabel labeldeliverydays;
+     JLabel labelclientaddress;
+     JLabel labelclientname;
+     JLabel labelclientcontact;
+     JPanel tabtotals;
+     JSpinner spinnerdetergentbags;
+     JSpinner spinnerapples;
+     JSpinner spinnerbread;
+     JSpinner spinneroil;
+     JSpinner spinnertomatoes;
+     JSpinner spinnerapricots;
+     JLabel labelcucumbers;
+     JLabel labelapples;
+     JLabel labelbread;
+     JLabel labeloil;
+     JLabel labelwater;
+     JSpinner spinnerwater;
+     JLabel labeldetergent;
+    JLabel labelapricots;
+     JLabel labeltomatoes;
+     JLabel labelcopyright2022;
+};}
