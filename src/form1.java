@@ -12,4 +12,13 @@ public class form1 {
     private JButton saveCustomerInfoButton;
     private JButton resetButton;
     private JComboBox comboBox1;
+    private JLabel presetLabel;
+    private JSpinner spinner1;
+    private JTextPane additionalCustomOrderWillTextPane;
+    private JButton saveOrderButton;
+    private JButton resetOrderButton;
+    private JCheckBox haveCustomOrderCheckBox;
+    private JTable table1;
+    private JButton deleteOrderButton;
+    private JButton saveOrderButton1;
 }
