@@ -9,6 +9,7 @@ public class form1 {
     private JTextField textField2;
     private JTextField textField3;
     private JTextField textField4;
-    private JButton button1;
-    private JButton button2;
+    private JButton saveCustomerInfoButton;
+    private JButton resetButton;
+    private JComboBox comboBox1;
 }
